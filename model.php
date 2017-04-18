@@ -3,7 +3,7 @@ session_start();
 
 function open_database_connection()
 {
-	$link=new mysqli("dpint.si","damjan","damjan123","glasovanje");
+	$link=new mysqli("potato.si","user","user123","pb");
 	$link->query("SET NAMES 'utf8'");
 	return $link;
 }
